@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+
+    <head>
+        <title>msboujees 3D Lashes and human hair store</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h5 class="navbar-brand offset-md-2 offset-sm-2" href="#" style="font-family:Lucida Bright;">
+                MsBoujeeLashes
+            </h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse offset-md-4" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <h6 class="nav-link"><a href="./">Home <span class="sr-only">(current)</span></a></h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6 class="nav-link"><a href="./views/category.html?cat=lashes">3D Lashes</a> </h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6 class="nav-link"><a href="./views/category.html?cat=lashes">Human Hair</a></h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6 class="nav-link "><a href="./views/about.html">About</a></h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6 class="nav-link "><a href="./Views/login.html">Login</a></h6>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide pt-3" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row pt-5" style="display: flex;justify-content: space-between;">
+                                <div class="col-md-6 mt-md-2" style="font-family:Big Caslon;color: #fafafa;">
+                                    <h1 style="line-height:1.5;font-weight:bolder">
+                                        <strong class="text-success">Feel World</strong> Class MsBoujee EyeLashes
+                                    </h1>
+                                    <p>Direct From world beauty Company available worldwide</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="./assets/images/babygirl.jpeg" alt="" id="herocircle">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row pt-5" style="display: flex;justify-content: space-between;">
+                                <div class="col-md-6 mt-md-2" style="font-family:Big Caslon;color: #fafafa;">
+                                    <h1 style="line-height:1.5;font-weight:bolder">
+                                        <strong class="text-primary">3D</strong> EyeLashes Store You can Trust
+                                    </h1>
+                                    <p>Reputation Commands Respect,Patronize Us Once and Keep Coming Back</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="./assets/images/babygirl.jpeg" alt="" id="herocircle">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row pt-5" style="display: flex;justify-content: space-between;">
+                                <div class="col-md-6 mt-md-2" style="font-family:Big Caslon;color: #fafafa;">
+                                    <h1 style="line-height:1.5;font-weight:bolder">
+                                        MsBoujee Hairs And Beauty Products
+                                    </h1>
+                                    <p>At MsBoujee We Provide Word Class
+                                        <Span class="text-warning">Goods and Services</Span>
+                                    </p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="data:image/jpeg;base64,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"
+                                        alt="" id="herocircle">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="bonus">
+                    <div class="col-md-4 mb-sm-3 mb-xs-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="card-body bg-dark mincard">
+                            <div class="circle">
+                                <i class="fa fa-truck fa-2x "></i>
+                            </div>
+                            <div class="">
+                                <h5 style="color:#fafafa">Free Delivery</h5>
+                                <p class="text-muted">For Orders Above <i class="fa fa-dollar">1000</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-sm-3 mb-xs-5" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="card-body bg-dark mincard">
+                            <div class="circle">
+                                <i class="fa fa-credit-card fa-2x "></i>
+                            </div>
+                            <div class="">
+                                <h5 style="color:#fafafa">100% Refund</h5>
+                                <p class="text-muted">Money-Back Within 7days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-sm-3 mb-xs-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                        <div class="card-body bg-dark mincard">
+                            <div class="circle">
+                                <i class="fa fa-trophy fa-2x"></i>
+                            </div>
+                            <div class="">
+                                <h5 style="color:#fafafa">Premium Quality</h5>
+                                <p class="text-muted">Certified Top Quality Items</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="loadingIcon">
+            <img src="../assets/images/Infinity-1s-200px.svg" alt="">
+        </div>
+        <section class="anime" data-aos="fade-right" data-aos-duration="2000">
+            <center>
+                <img src="./assets/images/Bean Eater-1s-200px.svg">
+            </center>
+        </section>
+        <section class="container" style="margin-top:70px;">
+            <div class="row p-md-5">
+                <div class="col-md-4 mb-sm-3 mb-xs-3">
+                    <h4 style="font-family:Arial Black;">Popular Products</h4>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                </div>
+                <div class="col-md-5">
+                    <form action="" class="form-group">
+                        <div class="form-inline">
+                            <input type="search" class="form-control col" name="" id="" placeholder="Search msboujees store">
+                            <button type="submit" class="btn btn-sm"><i class="fa fa-search fa-2x"></i></button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <hr/>
+            <div class=" productcontainer">
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row p-md-5">
+                <div class="col-md-6 mb-sm-2 mb-xs-2">
+                    <h5 style="font-family:Arial Black;">All Products</h5>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+            <hr/>
+
+            <div class=" productcontainer">
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+                <div class="mb-4 p-2 shadow" id="card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="./assets/images/babygirl.jpeg" class="productsimage" alt="">
+                    <div class="mt-3 text-muted p-2">
+                        <h6 style="overflow-wrap: break-word;">Pretty girl boujee</h6>
+                        <div class="d-flex">
+                            <i class="fa fa-dollar"></i>
+                            <h6>175.00</h6>
+                        </div>
+                        <button class="btn btn-sm w-100 mt-2" id="btn"><a href="./views/details.html?productId=1" class="text-success">View Product</a> </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class=""></div>
+                <div class=""></div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <div class="bg-dark">
+                <div class=" container pt-5 pb-3" style="height:fit-content;display: flex;justify-content: space-around;">
+                    <i class="fa fa-cc-visa fa-2x text-muted"></i>
+                    <i class="fa fa-cc-amex fa-2x text-muted"></i>
+                    <i class="fa fa-cc-mastercard fa-2x text-muted"></i>
+                    <i class="fa fa-paypal fa-2x text-muted"></i>
+                    <i class="fa fa-cc-discover fa-2x text-muted"></i>
+                </div>
+            </div>
+            <div class="socials mt-5">
+                <center>
+                    <h6>You Can Reach US On Any Of Our Social Media Handles</h6>
+                </center>
+                <div class=" container pt-3 pb-3" style="height:fit-content;display: flex;justify-content: center;">
+                    <a href="tel:+" class="m-2">
+                        <i class="fa fa-phone fa-2x text-info"></i>
+                    </a>
+                    <a href="mailto:" class="m-2">
+                        <i class="fa fa-envelope fa-2x text-danger"></i>
+                    </a>
+                    <a href="" class="m-2">
+                        <i class="fa fa-facebook fa-2x text-primary"></i>
+                    </a>
+                    <a href="" class="m-2">
+                        <i class="fa fa-instagram fa-2x text-dark"></i>
+                    </a>
+                    <a href="" class="m-2">
+                        <i class="fa fa-whatsapp fa-2x text-success"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-5">
+                <center>
+                    <span><i class="fa fa-copyright text-white mr-2"></i>MsBoujeeLashes, LLC 2021</span>
+                </center>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./assets/javascript/main.js"></script>
+        <script src="./assets/javascript/loadingEffect.js"></script>
+    </body>
+
+</html>
