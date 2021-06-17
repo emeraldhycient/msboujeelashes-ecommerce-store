@@ -6,7 +6,7 @@
 
 .sidebar {
     height: 100vh;
-    width: 10%;
+    width: 11%;
     background-color: rgb(2, 5, 7);
     position: static;
     overflow-y: auto;
@@ -14,7 +14,7 @@
 }
 
 .maincontent {
-    width: 90%;
+    width: 89%;
     height: 100vh;
     /*background-image: url('../../assets/images/babygirl.jpeg');
     background-repeat: no-repeat;
@@ -43,6 +43,48 @@
     background-color: #555;
     color: whitesmoke;
     border-radius: 15px;
+}
+
+#dash-card {
+    background-color: #fafafa;
+    width: 95%;
+    padding: 10px;
+    height: 100px;
+}
+
+.dash-icon-circle {
+    background-color: #555;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa
+}
+
+.uploads {
+    height: 375px;
+    background-color: #fafafa;
+    width: 95%;
+    padding: 10px;
+}
+
+.recentimg {
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.mincircle {
+    width: 22px;
+    height: 22px;
+    background-color: #094958;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa
 }
 
 @media (max-width: 768px) {
@@ -131,6 +173,24 @@
     .hidden {
         display: none;
     }
+    .sidebar {
+        height: 100vh;
+        width: 11%;
+        background-color: rgb(2, 5, 7);
+        position: static;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .maincontent {
+        width: 89%;
+        height: 100vh;
+        /*background-image: url('../../assets/images/babygirl.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;*/
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
 }
 
 @media (min-width: 768px) {
@@ -188,6 +248,24 @@
     }
     #bonus {
         margin-top: 18%;
+    }
+    .sidebar {
+        height: 100vh;
+        width: 15%;
+        background-color: rgb(2, 5, 7);
+        position: static;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .maincontent {
+        width: 85%;
+        height: 100vh;
+        /*background-image: url('../../assets/images/babygirl.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;*/
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 }
 
