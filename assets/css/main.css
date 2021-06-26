@@ -13,13 +13,15 @@
     overflow-x: hidden;
 }
 
+.sidebar .active {
+    background-color: whitesmoke;
+    color: rgb(2, 5, 8);
+    font-weight: bolder;
+}
+
 .maincontent {
-    width: 89%;
+    width: 200%;
     height: 100vh;
-    /*background-image: url('../../assets/images/babygirl.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -63,7 +65,7 @@
 }
 
 .uploads {
-    height: 375px;
+    height: fit-content;
     background-color: #fafafa;
     width: 95%;
     padding: 10px;
