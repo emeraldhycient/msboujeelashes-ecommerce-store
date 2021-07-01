@@ -59,9 +59,11 @@ if(!isset($_SESSION["loggedin"])) die("<p>please proceed to login first <a href=
         <div class="maincontent">
             <!-- page header starts-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
-                <h5 class="navbar-brand" href="#" style="font-family:Lucida Bright;">
-                    Ms.BoujeeLashes&Hair
-                </h5>
+                <!-- <h5 class="navbar-brand offset-md-2 offset-sm-2" href="#" style="font-family:Lucida Bright;">
+                Ms.BoujeeLashes&Hair
+            </h5>-->
+                <img src="../../assets/images/ms3.png" class="navbar-brand offset-md-2 offset-sm-2" height="100px"
+                    width="180px">
             </nav>
             <!-- page header starts-->
 
